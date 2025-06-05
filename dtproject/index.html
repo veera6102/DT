@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personalized Study Tools - Interactive Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Personalized Study Tools</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#problem" class="nav-link">Problem</a></li>
+          <li><a href="#solution" class="nav-link">Solution</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#quiz-demo" class="nav-link">Quiz Demo</a></li>
+          <li><a href="#faq" class="nav-link">FAQs</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <h2>Conquer Competitive Exams with Confidence</h2>
+      <p>Preparing for competitive exams is challenging and stressful, but it doesn't have to be overwhelming. Our personalized study tools are designed to empower high school students to learn efficiently, build lasting knowledge, and stay motivated throughout their academic journey. With adaptive learning technology and engaging resources, you can transform exam preparation into an exciting, manageable process.</p>
+      <a href="#solution" class="btn btn-primary" aria-label="Explore our personalized learning solutions">Explore Solutions</a>
+    </section>
+
+    <section id="about" class="section info-section">
+      <h2>About Us</h2>
+      <p>Personalized Study Tools was founded with a single vision: to create a student-centered learning environment that acknowledges that no two students learn the same way or at the same pace. We strive to move beyond the traditional, rigid textbook approach toward an interactive, adaptable platform that meets students where they are.</p>
+      <p>Our dedicated team of educators, developers, and psychologists works together to develop resources that incorporate the latest in educational research, technology, and motivational strategies. Our goal is to provide tools that reduce frustration, boost confidence, and ultimately improve exam outcomes for students from all backgrounds.</p>
+      <p>We believe that every student's potential is unique, and by tailoring the learning process, we can help unlock their full capabilities while supporting their mental well-being.</p>
+    </section>
+
+    <section id="problem" class="section info-section">
+      <h2>The Problem</h2>
+      <p>High school students preparing for competitive exams face intense challenges – academic pressure, massive syllabi, and emotional stress can easily lead to burnout. Students juggle schoolwork, coaching classes, and extracurricular activities with limited time for focused study.</p>
+      <p>Traditional textbooks and notes, while foundational, often present content in a fixed format with little room for adjustments based on individual needs. This "one-size-fits-all" model can frustrate students who struggle with certain topics or need slower progression, while those who grasp concepts quickly may become bored or disengaged.</p>
+      <ul>
+        <li><strong>Overwhelming content:</strong> The vast volume of material makes prioritizing difficult without guidance.</li>
+        <li><strong>Lack of engagement:</strong> Static materials do not encourage active learning or participation.</li>
+        <li><strong>Poor feedback:</strong> Delayed or no immediate feedback makes it hard to correct misunderstandings.</li>
+        <li><strong>Emotional toll:</strong> The stress from exams can lead to anxiety, loss of motivation, and health issues.</li>
+      </ul>
+      <p><strong>Statistics highlight:</strong> Nearly 70% of students report feeling overwhelmed, and more than 50% struggle to maintain consistent motivation when using traditional study methods.</p>
+    </section>
+
+    <section id="solution" class="section info-section">
+      <h2>Our Solution</h2>
+      <p>Our platform breaks the mold by providing personalized study experiences that adapt to each student's pace, style, and progress. By integrating technology and engaging pedagogical designs, we enable students to study smarter, not harder.</p>
+      <p>Features include:</p>
+      <ul>
+        <li><strong>Adaptive quizzes:</strong> Questions adjust in difficulty according to your skill level, reinforcing areas needing attention.</li>
+        <li><strong>Gamification:</strong> Earn badges, unlock levels, and receive rewards to keep your learning journey fun and motivating.</li>
+        <li><strong>Visual aids:</strong> Charts, diagrams, and infographics simplify complex concepts for better understanding.</li>
+        <li><strong>Instant feedback:</strong> Get real-time explanations to correct mistakes and deepen your comprehension.</li>
+        <li><strong>Progress tracking:</strong> Visual dashboards display your improvement trends and milestones.</li>
+      </ul>
+      <p>This intelligent approach helps alleviate stress by focusing efforts where they matter most while keeping motivation high.</p>
+      <blockquote>"Using these personalized tools has transformed how I prepare for exams. I feel more confident and less stressed, and my scores have improved dramatically!"<br><cite>— Student Testimonial</cite></blockquote>
+    </section>
+
+    <section id="features" class="section features-section">
+      <h2>Core Features</h2>
+      <ul class="feature-list">
+        <li><strong>Adaptive Quizzes:</strong> Our quizzes use algorithms that adjust question difficulty and topics dynamically, targeting your unique gaps, improving retention, and reinforcing understanding.</li>
+        <li><strong>Gamification:</strong> Engaging elements such as points, leaderboards, and achievements motivate you to surpass your goals and transform learning into a rewarding experience.</li>
+        <li><strong>Instant Feedback:</strong> On answering questions, you get clear, concise explanations immediately, helping correct misconceptions before they become roadblocks.</li>
+        <li><strong>Visual Aids:</strong> Complex topics become clearer through well-designed graphs, color-coded flowcharts, animations, and infographics tailored to diverse learning styles.</li>
+        <li><strong>Progress Tracking:</strong> Easily monitor your growth through detailed stats and visual progress reports, empowering sustained motivation and goal adjustments.</li>
+        <li><strong>Custom Study Plans:</strong> Build schedules responsive to your academic calendar, personal commitments, and learning speed, ensuring effective use of your study hours.</li>
+        <li><strong>Stress Management Support:</strong> Helpful tips, mindfulness exercises, and break reminders are integrated to maintain healthy study habits and combat burnout.</li>
+      </ul>
+    </section>
+
+    <section id="quiz-demo" class="section quiz-section">
+      <h2>Try a Quick Quiz</h2>
+      <p>Experience firsthand how our adaptive quizzes make studying interactive and feedback instant. Answer the questions below and see your score immediately!</p>
+      <div id="quiz">
+        <p id="question" aria-live="polite">Loading question...</p>
+        <div id="answers" role="list"></div>
+        <button id="next-btn" class="btn btn-secondary" disabled aria-label="Next question">Next</button>
+        <p id="score" class="hidden" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <p>Got questions about personalized learning or our tools? Find answers below or feel free to contact us!</p>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="ans1" id="q1">What is personalized learning?</button>
+        <div class="faq-answer" id="ans1" role="region" aria-labelledby="q1">Personalized learning customizes education to suit an individual's pace, interests, and strengths, rather than using uniform content and strategies for all students.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="ans2" id="q2">Are the tools free?</button>
+        <div class="faq-answer" id="ans2" role="region" aria-labelledby="q2">Yes! Our basic platform access and features are available free of cost to ensure equitable learning opportunities.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="ans3" id="q3">Can I track my progress?</button>
+        <div class="faq-answer" id="ans3" role="region" aria-labelledby="q3">Absolutely. Visual dashboards and detailed reports allow you to monitor improvements, strengths, and areas needing more focus.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="ans4" id="q4">Which exams do you cover?</button>
+        <div class="faq-answer" id="ans4" role="region" aria-labelledby="q4">Currently, we focus on common high school competitive exams such as SAT, ACT, JEE, NEET, and are working to expand to more regional and international exams.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="ans5" id="q5">How can I get support?</button>
+        <div class="faq-answer" id="ans5" role="region" aria-labelledby="q5">You can reach out any time through our contact form below or connect with us via our social media channels. We are here to help!</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact Us</h2>
+      <p>We would love to hear your feedback, questions, or partnership ideas. Fill out the form below and our team will get back to you promptly.</p>
+      <form id="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" aria-required="true" />
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" aria-required="true" />
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Your message" aria-required="true"></textarea>
+        
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    &copy; 2024 Personalized Study Tools. All rights reserved. | Developed with ❤️ for students worldwide.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
